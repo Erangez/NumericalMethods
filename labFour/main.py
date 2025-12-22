@@ -13,8 +13,6 @@ def gauss_integral(f, a, b):
         s += Ai * f(x)
     return (b - a) / 2 * s
 
-
-
 # функция f1(x)
 def f1(x):
     return math.tan(x / 2 + math.pi / 4) ** 3
@@ -26,7 +24,6 @@ u = gauss_integral(f1, a1, b1)
 
 print("Значение интеграла u:")
 print(f"u = {u:.6f}\n")
-
 
 # функции φ(z), ψ(x), f2(x,t)
 mu = 0.01
